@@ -1,19 +1,448 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* navigation bar */
+@font-face {
+    font-family: 'Merriweather';
+    src: url(fonts/Merriweather-Black.ttf);
+  }
 
+/* navigation bar */
 .navbar {
     color: #fff;
     display: flex;
     align-items: center;
     padding: 10px;
-    padding-top: 1.5%;
+    padding-top: 12px;
+    background-color: #343a40; 
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffc107; 
+    margin-right: auto;
+}
+
+.navbar .nav-links {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    position: relative;
+}
+
+.navbar .nav-link, .a {
+    margin: 0 20px; 
+    text-decoration: none;
+    color: #f8f9fa; 
+    font-size: 18px;
+    transition: color 0.3s ease, font-weight 0.3s ease; 
+    position: relative;
+}
+
+.navbar .nav-link:hover {
+    color: #ffc107;
+    font-weight: bold;
+}
+
+.genre-dropdown {
+    position: relative;
+}
+
+.genre-dropdown:hover .dropdown-menu {
+    display: grid;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: ghostwhite;
+    color: #000;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+    display: block;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+}
+
+.navbar .search-bar {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.navbar .search-bar input {
+    padding: 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    width: 280px;
+}
+
+/* --------------------- MainPage ------------------- */
+
+.latestMovie_TvshowsList{
+    width: 100%;
+    margin-top: 4%;
+}
+
+.secbackgorund{
+    background-color: #ffc107;
     padding-bottom: 1%;
-    background-color: #8d4585;
+}
+
+.secGenrebackgorund{
+    padding-bottom: 1%;
+    margin-top: 3%;
+}
+
+.doglogoCon {
+    display: flex;
+    justify-content: center; 
+    align-items: center;          
+    margin-bottom: 2%;  
+}
+
+.doglogo{
+    width: 32%;
+    margin: 0 auto;
+    margin-top: -10%;
+}
+
+.line {
+    display: block; 
+    width: 50%; 
+    height: 2px; 
+    background-color: #ffc107; 
+    margin: 20px auto; 
+    border: none;
+    text-decoration: none;
+}
+
+.latestMovie_TvshowsList h1{
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 42px;
+    font-family: Merriweather;
+}
+
+.latestMovie_TvshowsList .desBlock{
+    font-size: 17px;
+    margin-bottom: 1.9%;
+    text-align: center;
+    margin-left: -1%;
+}
+
+.latestMovie_TvshowsList p {
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    font-weight: bold;
+    margin-left: 8%;
+}
+
+.large-search-bar{
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.large-search-bar input {
+    width: 45%;
+    height: 45px;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none !important;
+    border: 1px solid #ccc;
+    box-shadow: none !important;
+}
+
+.large-search-bar input:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.movieCardContainer {
+    margin-top: 1.9%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+}
+
+.movieCard {
+    width: 188px;
+    margin: 1% 0.5% 10px 5.6%;
+    position: relative; 
+}
+
+.movieCard-image {
+    position: relative;
+}
+
+.movieCard-image img {
+    width: 100%; 
+    display: block; 
+    cursor: pointer;
+}
+
+.movieCard-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0; 
+    transition: opacity 0.3s ease; 
+}
+
+.movieCard-image .play-button {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-size: 24px; 
+    color: #333; 
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+}
+
+.movieCard-image .play-button:hover {
+    background-color: rgba(255, 255, 255, 1); 
+    transform: scale(1.1); 
+}
+
+.movieCard-image:hover .overlay {
+    opacity: 1; 
+}
+ 
+.movieCard-content p:nth-of-type(1) {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+} 
+
+.movieCard-content p:nth-of-type(2) {
+    font-size: 13px;
+    font-weight:700;
+} 
+
+.movieCard-content p:nth-of-type(1):hover {
+    font-weight: bold;
+    color:white;
+    cursor: pointer; 
+} 
+
+.watchMore {
+    margin-top: 2%;
+    transition: color 0.3s ease;
+}
+
+.watchMore p {
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    text-align: center;
+    transition: color 0.3s ease; 
+}
+
+.watchMore:hover, .watchMore p:hover {
+    color: #ffc107;
+}
+
+/* --------------------- Pagination --------------------- */
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+/* --------------------- footer --------------------- */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: -10%;
+    margin-top: 80px;
   }
   
- 
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 15px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 18px;
+  }
+  
+  .social-icons a:hover {
+    color: #ffc107; 
+  }
+
+/* --------------------- Resize ------------------- */
+
+@media (max-width: 1200px) {
+    .navbar .nav-link, .a {
+        margin: 0 20px;
+    }
+}
+
+@media (max-width: 850px) {
+    .navbar .nav-link, .a {
+        margin: 0 20px;
+    }
+
+    .navbar .search-bar {
+        display: none;
+    }
+
+    .latestMovie_TvshowsList h1{
+        font-size: 35px;
+    }
+
+    .latestMovie_TvshowsList p:nth-of-type(1){
+        margin: 2% 0 2% 0;
+    }
+
+    .large-search-bar input {
+        margin-bottom: 3%;
+    }
+
+    .large-search-bar input {
+        width: 70%;
+    }
+
+    .doglogo{
+        width: 45%;
+    }
+}
+
+@media (max-width: 730px) {
+
+    .movieCard {
+        margin-left: 15%;
+    }
+
+    .latestMovie_TvshowsList h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 590px) {
+
+    /* .navbar{
+        background-color: aqua;
+    } */
+
+    .navbar .logo {
+        font-size: 34px;
+        font-weight: bold;
+        position: absolute;
+        margin-left: 120px;
+        margin-top: -40px;
+    }
+
+    .nav-links{
+        margin-top: 80px;
+        margin-left: -10px;
+        padding-top: 20px;
+    }
+
+    .latestMovie_TvshowsList h1{
+        font-size: 26px;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .latestMovie_TvshowsList p:nth-of-type(1){
+        margin-bottom: 5%;
+        padding: 0 5px 0 5px;
+    }
+
+    .latestMovie_TvshowsList p{
+       text-align: center;
+       margin: 5% 0 5% 0;
+    }
+
+    .doglogo{
+        width: 70%;
+        margin-top: -15%;
+    }
+
+    .movieCard {
+        margin-left: 6.5%;
+    }
+
+    .watchMore{
+        margin-bottom: 10%;
+    }
+
+    .large-search-bar input {
+        margin-bottom: 8%;
+    }
+    
+}
