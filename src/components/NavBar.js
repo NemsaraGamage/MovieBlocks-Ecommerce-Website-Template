@@ -1,26 +1,25 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../components/styles.css';
 
 const NavBar = () => {
   return (
     <div className="navbar">
-      <Link to="/" className="logo">MovieBlocks</Link>
+      <a href="/" className="logo">MovieBlocks</a>
       <div className="nav-links">
-        <Link to="/" className="nav-link">Home</Link>
+        <a href="/" className="nav-link">Home</a>
         <div className="genre-dropdown">
-          <Link to="#" className="nav-link">Genre</Link>
+          <a href="#" className="nav-link">Genre</a>
           <div className="dropdown-menu">
-            <Link to="/comedy" className="dropdown-item">Comedy</Link>
-            <Link to="#" className="dropdown-item">Horror</Link>
-            <Link to="#" className="dropdown-item">Adventure</Link>
-            <Link to="#" className="dropdown-item">Action</Link>
-            <Link to="#" className="dropdown-item">Thriller</Link>
-            <Link to="#" className="dropdown-item">Mystery</Link>
-            <Link to="#" className="dropdown-item">Crime</Link>
-            <Link to="#" className="dropdown-item">Family</Link>
-            <Link to="#" className="dropdown-item">Drama</Link>
-            <Link to="#" className="dropdown-item">War</Link>
+            <a href="/comedy" className="dropdown-item">Comedy</a>
+            <a href="#" className="dropdown-item">Horror</a>
+            <a href="#" className="dropdown-item">Adventure</a>
+            <a href="#" className="dropdown-item">Action</a>
+            <a href="#" className="dropdown-item">Thriller</a>
+            <a href="#" className="dropdown-item">Mystery</a>
+            <a href="#" className="dropdown-item">Crime</a>
+            <a href="#" className="dropdown-item">Family</a>
+            <a href="#" className="dropdown-item">Drama</a>
+            <a href="#" className="dropdown-item">War</a>
           </div>
         </div>
         <a href="#" className="nav-link">Top Picks</a>

@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Ensure this is the only import of ReactDOM
+// import ReactDOM from 'react-dom';  // Remove or comment out this line if it's duplicated
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
