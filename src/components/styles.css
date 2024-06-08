@@ -7,9 +7,19 @@
 @font-face {
     font-family: 'Merriweather';
     src: url(fonts/Merriweather-Black.ttf);
-  }
+}
 
-/* navigation bar */
+@font-face {
+    font-family: 'Merienda-Black';
+    src: url(fonts/Merienda-Black.ttf);
+}
+
+@font-face {
+    font-family: 'DancingScript-Bold';
+    src: url(fonts/DancingScript-Bold.ttf);
+}
+
+/* --------------------- navigation bar --------------------- */
 .navbar {
     color: #fff;
     display: flex;
@@ -246,13 +256,13 @@
     opacity: 1; 
 }
  
-.movieCard-content p:nth-of-type(1) {
+.movieCard-content p:nth-of-type(1), .movieCard-content-comedySec p:nth-of-type(1) {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
 } 
 
-.movieCard-content p:nth-of-type(2) {
+.movieCard-content p:nth-of-type(2), .movieCard-content-comedySec p:nth-of-type(2) {
     font-size: 13px;
     font-weight:700;
 } 
@@ -262,6 +272,12 @@
     color:white;
     cursor: pointer; 
 } 
+
+.movieCard-content-comedySec p:nth-of-type(1):hover{
+    font-weight: bold;
+    color: #ffc107;
+    cursor: pointer; 
+}
 
 .watchMore {
     margin-top: 2%;

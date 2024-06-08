@@ -1,6 +1,6 @@
 import React from "react";
 import '../styles.css';
-import NavbarHead from "../NavBar"; 
+import NavBarHead from "../NavBar"; 
 import FooterBottom from "../Footer"
 import pic1 from '../pics/1.jpg';
 import pic2 from '../pics/2.jpg';
@@ -30,8 +30,8 @@ const MainPage = () => {
     <>
       <div className="backgroundColor">
 
-        {/* Navigation bar */}
-        <NavbarHead />
+        {/* Nav bar */}
+        <NavBarHead></NavBarHead>
 
         {/* Latest Movies */}
         <div className="latestMovie_TvshowsList">
