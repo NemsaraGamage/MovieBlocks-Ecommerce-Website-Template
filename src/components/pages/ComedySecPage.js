@@ -1,6 +1,8 @@
 import React from "react";
 import '../styles.css'; 
 import FooterBottom from "../Footer"
+import Pagination from "../pages/Pagination";
+import NavBarHead from "../NavBar";
 import pic1 from '../pics/comedySection/1.jpg';
 import pic2 from '../pics/comedySection/2.jpg';
 import pic3 from '../pics/comedySection/3.jpg';
@@ -11,8 +13,11 @@ import pic7 from '../pics/comedySection/7.jpg';
 import pic8 from '../pics/comedySection/8.jpg';
 import pic9 from '../pics/comedySection/9.jpg';
 import pic10 from '../pics/comedySection/10.jpg';
-import Pagination from "../pages/Pagination";
-import NavBarHead from "../NavBar";
+import pic11 from '../pics/2.jpg';
+import pic12 from '../pics/9.jpg'
+import pic13 from '../pics/6.jpg'
+import pic14 from '../pics/comedySection/11.jpg';
+import pic15 from '../pics/comedySection/12.jpg';
 
 const ComedySecPage = () => { 
 
@@ -160,6 +165,72 @@ const ComedySecPage = () => {
                             <p>2020 | 118m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
                         </div>
+
+                        <div className="movieCard">
+                            <div className="movieCard-image">
+                            <img src={pic11} alt="Movie poster" />
+                            <div class="overlay">
+                                <div class="play-button">&#9654;</div>
+                            </div>
+                            </div>
+                            <div className="movieCard-content-comedySec">
+                            <p>The Fall Guy</p>
+                            <p>2024 | 126m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
+                            </div>
+                        </div>
+
+                        <div className="movieCard">
+                            <div className="movieCard-image">
+                            <img src={pic12} alt="Movie poster" />
+                            <div class="overlay">
+                                <div class="play-button">&#9654;</div>
+                            </div>
+                            </div>
+                            <div className="movieCard-content-comedySec">
+                            <p>South Park: The End....</p>
+                            <p>2024 | 51m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
+                            </div>
+                        </div>
+
+                        <div className="movieCard">
+                            <div className="movieCard-image">
+                            <img src={pic13} alt="Movie poster" />
+                            <div class="overlay">
+                                <div class="play-button">&#9654;</div>
+                            </div>
+                            </div>
+                            <div className="movieCard-content-comedySec">
+                            <p>Kung Fu Panda 4</p>
+                            <p>2024 | 94m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
+                            </div>
+                        </div>
+
+                        <div className="movieCard">
+                            <div className="movieCard-image">
+                            <img src={pic14} alt="Movie poster" />
+                            <div class="overlay">
+                                <div class="play-button">&#9654;</div>
+                            </div>
+                            </div>
+                            <div className="movieCard-content-comedySec">
+                            <p>Rush Hour</p>
+                            <p>1994 | 98m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
+                            </div>
+                        </div>
+
+                        <div className="movieCard">
+                            <div className="movieCard-image">
+                            <img src={pic15} alt="Movie poster" />
+                            <div class="overlay">
+                                <div class="play-button">&#9654;</div>
+                            </div>
+                            </div>
+                            <div className="movieCard-content-comedySec">
+                            <p>Weird: The Al Yanko.....</p>
+                            <p>2022 | 108m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

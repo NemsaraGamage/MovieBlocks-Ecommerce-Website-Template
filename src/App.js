@@ -4,6 +4,8 @@ import MainPage from './components/pages/MainPage';
 import ComedyPage from './components/pages/ComedySecPage'; 
 import NavBarHead from './components/NavBar';
 
+// npm run deploy
+
 const RouteConfig = () => {
   return (
     <Router>
