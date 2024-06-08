@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.58654459.css",
-    "main.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.32172bae.js",
+    "main.css": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.8c525faf.css",
+    "main.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.74abaafd.js",
     "static/js/453.8fe87fba.chunk.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js",
     "static/media/dog.png": "/MovieBlocks-Ecommerce-Website-Template/static/media/dog.92ff585b55a3fc441187.png",
     "static/media/Merriweather-Black.ttf": "/MovieBlocks-Ecommerce-Website-Template/static/media/Merriweather-Black.cfe2aa3843d8cb416e1a.ttf",
+    "static/media/Merienda-Black.ttf": "/MovieBlocks-Ecommerce-Website-Template/static/media/Merienda-Black.2e1d935b36d499389f07.ttf",
+    "static/media/DancingScript-Bold.ttf": "/MovieBlocks-Ecommerce-Website-Template/static/media/DancingScript-Bold.57bdbb733ef4ac8e2df3.ttf",
     "static/media/7.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/7.f9f78a319ee8e6fc648f.jpg",
     "static/media/3.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/3.0dcb9b21756356a7517d.jpg",
     "static/media/6.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/6.6f5a4ebadcd3d4939e9b.jpg",
@@ -26,12 +28,12 @@
     "static/media/14.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/14.5ef590d2e254167f3d8e.jpg",
     "static/media/18.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/18.719a41f08364f2b7d6e2.jpg",
     "index.html": "/MovieBlocks-Ecommerce-Website-Template/index.html",
-    "main.58654459.css.map": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.58654459.css.map",
-    "main.32172bae.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.32172bae.js.map",
+    "main.8c525faf.css.map": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.8c525faf.css.map",
+    "main.74abaafd.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.74abaafd.js.map",
     "453.8fe87fba.chunk.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58654459.css",
-    "static/js/main.32172bae.js"
+    "static/css/main.8c525faf.css",
+    "static/js/main.74abaafd.js"
   ]
 }
