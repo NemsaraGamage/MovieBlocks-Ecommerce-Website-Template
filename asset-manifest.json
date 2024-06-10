@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.d439088c.css",
-    "main.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.7dec5b45.js",
+    "main.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.0bf63731.js",
     "static/js/453.8fe87fba.chunk.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js",
     "static/media/dog.png": "/MovieBlocks-Ecommerce-Website-Template/static/media/dog.92ff585b55a3fc441187.png",
     "static/media/Merriweather-Black.ttf": "/MovieBlocks-Ecommerce-Website-Template/static/media/Merriweather-Black.cfe2aa3843d8cb416e1a.ttf",
@@ -29,11 +29,11 @@
     "static/media/18.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/18.719a41f08364f2b7d6e2.jpg",
     "index.html": "/MovieBlocks-Ecommerce-Website-Template/index.html",
     "main.d439088c.css.map": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.d439088c.css.map",
-    "main.7dec5b45.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.7dec5b45.js.map",
+    "main.0bf63731.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.0bf63731.js.map",
     "453.8fe87fba.chunk.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d439088c.css",
-    "static/js/main.7dec5b45.js"
+    "static/js/main.0bf63731.js"
   ]
 }
