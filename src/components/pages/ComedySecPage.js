@@ -43,7 +43,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>G'wed</p>
                             <p>SS1 | EPS 6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TV</p>
                             </div>
@@ -56,7 +56,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>ted</p>
                             <p>SS1 | EPS 7 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TV</p>
                             </div>
@@ -69,7 +69,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Chicken Run:Dawn.......</p>
                             <p>2024 | 97m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -82,7 +82,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>The Family Plan</p>
                             <p>2023 | 119m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -95,7 +95,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Freelance</p>
                             <p>2023 | 109m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -108,7 +108,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Krapopolis</p>
                             <p>SS1 | EPS 23 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TV</p>
                             </div>
@@ -121,7 +121,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Black Ops</p>
                             <p>SS1 | EPS 6 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TV</p>
                             </div>
@@ -134,7 +134,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Animal Control</p>
                             <p>SS2 | EPS 9 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TV</p>
                             </div>
@@ -147,7 +147,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Harold & Kumar Go.....</p>
                             <p>2002 | 109m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -160,7 +160,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Love and Monsters</p>
                             <p>2020 | 118m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -173,7 +173,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>The Fall Guy</p>
                             <p>2024 | 126m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -186,7 +186,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>South Park: The End....</p>
                             <p>2024 | 51m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -199,7 +199,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Kung Fu Panda 4</p>
                             <p>2024 | 94m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -212,7 +212,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Rush Hour</p>
                             <p>1994 | 98m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>
@@ -225,7 +225,7 @@ const ComedySecPage = () => {
                                 <div class="play-button">&#9654;</div>
                             </div>
                             </div>
-                            <div className="movieCard-content-comedySec">
+                            <div className="movieCard-content-Sec">
                             <p>Weird: The Al Yanko.....</p>
                             <p>2022 | 108m &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Movie</p>
                             </div>

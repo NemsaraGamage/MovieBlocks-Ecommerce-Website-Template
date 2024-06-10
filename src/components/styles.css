@@ -123,7 +123,7 @@
     padding-bottom: 1%;
 }
 
-.secGenrebackgorund{
+.secGenrebackgorund, .topPickCon{
     padding-bottom: 1%;
     margin-top: 3%;
 }
@@ -256,13 +256,13 @@
     opacity: 1; 
 }
  
-.movieCard-content p:nth-of-type(1), .movieCard-content-comedySec p:nth-of-type(1) {
+.movieCard-content p:nth-of-type(1), .movieCard-content-Sec p:nth-of-type(1) {
     font-size: 16px;
     font-weight: bold;
     text-align: center;
 } 
 
-.movieCard-content p:nth-of-type(2), .movieCard-content-comedySec p:nth-of-type(2) {
+.movieCard-content p:nth-of-type(2), .movieCard-content-Sec p:nth-of-type(2) {
     font-size: 13px;
     font-weight:700;
 } 
@@ -273,7 +273,7 @@
     cursor: pointer; 
 } 
 
-.movieCard-content-comedySec p:nth-of-type(1):hover{
+.movieCard-content-Sec p:nth-of-type(1):hover{
     font-weight: bold;
     color: #ffc107;
     cursor: pointer; 
@@ -294,6 +294,90 @@
 
 .watchMore:hover, .watchMore p:hover {
     color: #ffc107;
+}
+
+/* --------------------- Top Picks --------------------- */
+
+.topPickCardContainer {
+    margin-top: 1.9%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: flex-start; 
+}
+
+.movieItem {
+    width: 80%; 
+    display: flex;
+    align-items: flex-start; 
+    margin: 0 auto;
+    box-sizing: border-box; 
+    border-bottom: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.movieItem img {
+    width: 150px;;
+    object-fit: cover;
+    margin-right: 15px;
+    padding-bottom: 5px;
+}
+
+.movieDetails {
+    flex-grow: 1;
+    margin-left: 15px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.movieDetails p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.movieDetails .title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.movieDetails .info {
+    color: #666;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.movieRating {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    color: #FFA500;
+    margin-top: 10px; 
+    width: 150px;
+    margin: 0 auto; 
+}
+
+.movieRating p {
+    margin: 0;
+    margin-left: 5px; 
+    font-size: 14px;
+}
+
+.rateLink {
+    color: #0073e6;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.infoIcon {
+    color: #0073e6;
+    cursor: pointer;
+    margin-left: 10px;
+    align-self: center; /* Align infoIcon to the center */
 }
 
 /* --------------------- Pagination --------------------- */
@@ -406,6 +490,7 @@
     .latestMovie_TvshowsList h1{
         font-size: 30px;
     }
+    
 }
 
 @media (max-width: 590px) {
@@ -459,6 +544,10 @@
 
     .large-search-bar input {
         margin-bottom: 8%;
+    }
+
+    .movieItem {
+        width: 100%; 
     }
     
 }
