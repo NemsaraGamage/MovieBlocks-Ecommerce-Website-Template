@@ -24,8 +24,8 @@ const NavBar = () => {
             <Link to="#" className="dropdown-item">War</Link>
           </div>
         </div>
-        <a href="toppicks" className="nav-link">Top Picks</a>
-        <a href="tvshow" className="nav-link">TV Shows</a>
+        <Link to="/toppicks" className="nav-link">Top Picks</Link>
+        <Link to="/tvshow" className="nav-link">TV Shows</Link>
       </div>
       <div className="search-bar">
         <input type="text" placeholder="Search..." />
