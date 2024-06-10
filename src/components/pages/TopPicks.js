@@ -92,7 +92,6 @@ const TopPicks = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
