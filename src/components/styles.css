@@ -551,3 +551,9 @@
     }
     
 }
+
+@media (max-width: 435px) {
+    .movieCard{
+        margin-left: 1%;
+    }
+}
