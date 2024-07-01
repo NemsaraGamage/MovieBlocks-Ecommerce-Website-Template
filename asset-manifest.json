@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.d439088c.css",
+    "main.css": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.9ea08775.css",
     "main.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.0bf63731.js",
     "static/js/453.8fe87fba.chunk.js": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js",
     "static/media/dog.png": "/MovieBlocks-Ecommerce-Website-Template/static/media/dog.92ff585b55a3fc441187.png",
@@ -28,12 +28,12 @@
     "static/media/14.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/14.5ef590d2e254167f3d8e.jpg",
     "static/media/18.jpg": "/MovieBlocks-Ecommerce-Website-Template/static/media/18.719a41f08364f2b7d6e2.jpg",
     "index.html": "/MovieBlocks-Ecommerce-Website-Template/index.html",
-    "main.d439088c.css.map": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.d439088c.css.map",
+    "main.9ea08775.css.map": "/MovieBlocks-Ecommerce-Website-Template/static/css/main.9ea08775.css.map",
     "main.0bf63731.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/main.0bf63731.js.map",
     "453.8fe87fba.chunk.js.map": "/MovieBlocks-Ecommerce-Website-Template/static/js/453.8fe87fba.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d439088c.css",
+    "static/css/main.9ea08775.css",
     "static/js/main.0bf63731.js"
   ]
 }
